@@ -1,0 +1,10 @@
+nage = input("What is your current age?")
+
+age=int(nage)
+#You have 12410 days, 1768 weeks, and 408 months left.
+
+monthleft=((90*12)-(age*12))
+weekleft=((90*52)-(age*52))
+daysleft=((365*90)-(age*365))
+print(f"You have{daysleft} days,{weekleft} weeks,and {monthleft} months left.")
+
